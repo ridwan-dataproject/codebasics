@@ -1,0 +1,167 @@
+#title {
+  background-color: #3fc1c9;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3.5rem;
+  color: #364f6b;
+  line-height: 1.35;
+}
+
+h2 {
+  font-family: verdana, sans-serif;
+  font-size: 2.5rem;
+  color: #364f6b;
+  line-height: 1.35;
+}
+
+h3 {
+  font-family: 'Montserrat-bold', sans-serif;
+  font-weight: bold;
+  color: #522d5b;
+}
+
+p {
+  color: grey;
+}
+
+.container-fluid {
+  padding:3% 15%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding:0 0 3.5rem;
+}
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight:bold;
+}
+
+.nav-item {
+  padding : 0 18px;
+}
+
+.nav-link {
+  font-family: 'Montserrat-Light', sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+
+.download-button {
+  margin:5% 3% 5% 0;
+}
+
+/* Feature Sections */
+
+#features {
+  background-color: #e4f9f5;
+  padding: 1% 15%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 3%;
+}
+
+.icon {
+  color: #be79df;
+  margin-bottom: 1.15rem;
+}
+
+.icon:hover {
+  color: #3fc1c9;
+}
+
+/* Testimonials section */
+#testimonials {
+  background-color: #a6e3e9;
+  text-align: center;
+  color: #364f6b;
+}
+
+.testimonial-img {
+  width: 25%;
+  border-radius: 100%;
+  margin: 15px;
+}
+
+/* Press Section */
+
+#press {
+  background-color: #a6e3e9;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 30px;
+}
+
+.carousel-item {
+  padding: 5% 15%;
+}
+
+
+/* Pricing Section */
+#pricing {
+  padding:50px 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    width:100%;
+  }
+}
+
+/* cta sections */
+
+#cta {
+  background-color:  #a6e3e9;
+  text-align: center;
+  padding-top: 3%;
+}
+
+.cta-heading {
+  font-style: 'Montserrat-black';
+  font-size: 3.5rem;
+}
+
+.p-heading {
+  font-size: 1.5rem;
+  color:#364f6b;
+}
+
+/* Footer Section */
+
+#footer {
+  text-align: center;
+  background-color: #e4f9f5;
+  padding: 20px;
+}
+
+.copyright-heading {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1rem;
+  color: #364f6b;
+  font-weight: bold;
+}
+
+.social-icon {
+  margin:20px 10px;
+}
